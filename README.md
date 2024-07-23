@@ -33,4 +33,4 @@ If you've found a bug regarding security please mail [security@eventsb2b.be](mai
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
