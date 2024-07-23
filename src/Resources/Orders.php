@@ -26,8 +26,6 @@ class Orders extends Resource
 
     /**
      * Return a PDF of the order
-     *
-     * @return string
      */
     public function pdf(): array
     {
@@ -36,8 +34,6 @@ class Orders extends Resource
 
     /**
      * Get a single order
-     *
-     * @return string
      */
     public function get(int $orderId): array
     {
@@ -46,8 +42,6 @@ class Orders extends Resource
 
     /**
      * Get a list of orders
-     *
-     * @return string
      */
     public function search(?int $page = null, ?int $limit = null, ?string $type = null): array
     {

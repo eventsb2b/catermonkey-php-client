@@ -26,8 +26,6 @@ class Locations extends Resource
 
     /**
      * Get a single location
-     *
-     * @return string
      */
     public function get(int $locationId): array
     {
@@ -36,8 +34,6 @@ class Locations extends Resource
 
     /**
      * Get a list of locations
-     *
-     * @return string
      */
     public function search(?int $page = null, ?int $limit = null, ?string $type = null): array
     {
