@@ -43,10 +43,11 @@ class Orders extends Resource
     /**
      * Get a list of orders
      */
-    public function search(?int $page = null, ?int $limit = null, ?string $type = null): array
+    public function search(?string $query = null, ?int $page = null, ?int $limit = null, ?string $type = null): array
     {
         return $this->request('GET', 'search/orders', [
             'query' => [
+                'query' => $query,
                 'page' => $page,
                 'limit' => $limit,
                 'type' => $type,
